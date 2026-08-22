@@ -2,7 +2,7 @@ export const profile = {
   name: "Kalaimani R",
   role: "Backend / API Developer",
   tagline: "Technical Lead",
-  location: "Perambalur, Tamil Nadu, India",
+  location: "Chennai, Tamil Nadu, India",
   email: "rkalai1502@gmail.com",
   phone: "+91 98940 07611",
   github: "https://github.com/kalaimani1502",
@@ -15,16 +15,15 @@ export const profile = {
 };
 
 export const stats = [
-  { value: "5.5+", label: "years in backend / API development" },
+  { value: "5+", label: "years in backend / API development" },
   { value: "3+", label: "years on one large-scale platform" },
-  { value: "8", label: "production systems shipped" },
-  { value: "2", label: "languages I ship in — PHP & Python" },
+  { value: "7+", label: "applications across multiple domains" },
+  { value: "2", label: "languages — PHP & Python" },
 ];
-
 export const skillGroups = [
   {
     title: "Backend & APIs",
-    items: ["PHP", "Python", "Laravel", "Lumen", "Slim Framework", "FastAPI", "REST API Design", "Auth & Authorization"],
+    items: ["PHP", "Python", "Laravel", "Lumen", "Slim Framework", "FastAPI", "REST API Design", "Authentication & Authorization"],
   },
   {
     title: "Realtime & Integration",
@@ -50,40 +49,55 @@ export const skillGroups = [
 
 export const experience = [
   {
-    period: "2025 — Present · 4 mos",
+    period: "2026 — Present · 4 mos",
     title: "Backend / API Developer",
     org: "Transport Management Application",
-    stack: "Python · FastAPI · WebSocket · React Native",
+    stack: "Python · FastAPI · React Native · React Js",
     points: [
       "Building the Python REST API layer and backend business logic from the ground up for a transport-management platform.",
-      "Defining API contracts with React / React Native frontend developers and supporting real-time features over WebSockets.",
-      "Running a structured AI-assisted workflow (Claude) for implementation, with full manual review before anything ships.",
+      "Designing API contracts and integration flows with React / React Native frontend developers.",
+      "Working on database integration, API validation, authentication, and application-level business rules.",
+      "Running a structured AI-assisted development workflow using Claude, with manual review, debugging, testing, and technical validation before implementation is finalized.",
+      "Participating in technical discussions and guiding frontend/backend implementation based on API and application requirements."
     ],
   },
+
   {
-    period: "2025 — Present · 4 mos",
+    period: "2026 — Present · 4 mos",
     title: "Backend / API Developer",
     org: "Tamilvattam Event Management Application",
-    stack: "Python · FastAPI · WebSocket",
+    stack: "Python · FastAPI · WebSocket · React Js ",
     points: [
-      "Designing Python APIs and backend logic for event workflows, plus the real-time layer where the app needs it.",
-      "Technically guiding frontend implementation from the API/application-flow side.",
+      "Designing and developing Python APIs and backend business logic for event-management workflows.",
+      "Implementing WebSocket-based real-time communication for application features requiring live updates.",
+      "Technically guiding frontend and backend implementation from the API and application-flow side.",
+       "Implementing multilingual API support for Tamil and English, including localized request handling, validation messages, responses, and application content.",
+     
+      "Working on database integration, API validation, debugging, and frontend/backend integration.",
+      "Translating business requirements into API structures and backend implementation approaches."
     ],
   },
+
   {
-    period: "2021 — Present · 3+ yrs",
+    period: "2022 — Present · 3+ yrs",
     title: "API / Backend Developer",
     org: "Australia-Based Real Estate Platform",
-    stack: "PHP · Laravel · MySQL · AWS · WebSocket",
+    stack: "PHP · Laravel · MySQL · AWS · WebSocket · React Native · React Js",
     flagship: true,
     points: [
-      "Owned REST APIs for the platform's hardest modules: bidding, legal workflow, document management, internal comms.",
-      "Built a custom e-signature engine in-house — no third-party e-sign service — API, backend logic, and signing workflow, while guiding the React.js frontend build.",
-      "Implemented WebSocket-based real-time communication across the platform and owned AWS infrastructure (EC2, S3, RDS).",
-      "Worked directly with international clients — took requirements straight from stakeholders and turned them into shipped features.",
-      "Became the technical reference point for both frontend and backend developers: API design, integration, debugging, code review.",
+      "Owned REST APIs and backend business logic for complex modules including bidding, legal workflows, document management, and internal communication.",
+      "Built a custom e-signature solution in-house without using a third-party e-signature service — developed the PHP APIs, backend logic, document/signing workflow, and technically guided the React.js frontend implementation.",
+      "Designed and implemented WebSocket-based real-time communication across the platform and coordinated the frontend/backend integration.",
+      "Worked with AWS EC2, S3, and RDS for application hosting, document/file storage, and database infrastructure, with hands-on server-side troubleshooting.",
+      "Designed and optimized database queries and backend workflows for application performance and reliability.",
+      "Worked directly with international clients to gather requirements, clarify business workflows, and translate requirements into technical solutions.",
+      "Became a technical reference point for frontend and backend developers, providing guidance on API design, integration, debugging, code review, and implementation approaches.",
+      "Handled API testing and documentation using tools such as Postman and Swagger/OpenAPI.",
+      "Supported production issue investigation, debugging, deployment-related activities, and ongoing application maintenance.",
+      "Worked across multiple application components and coordinated frontend/backend dependencies to deliver features end-to-end."
     ],
-  },
+  }
+
 ];
 
 export const earlierWork = [
@@ -98,7 +112,7 @@ export const flagshipProjects = [
     tag: "GET /projects/e-signature",
     title: "Custom E-Signature Engine",
     description:
-      "Built from scratch instead of licensing a third-party e-sign product — PHP API, signing-state backend logic, and the document pipeline behind it, with the React.js UI built to spec I defined.",
+      "Built from scratch instead of licensing a third-party e-sign product — PHP API, signing-state backend logic, and the document pipeline behind it, with the React.js frontend implementation guided by the API and signing workflow I defined.",
     stack: ["PHP", "Laravel", "React.js", "MySQL"],
   },
   {

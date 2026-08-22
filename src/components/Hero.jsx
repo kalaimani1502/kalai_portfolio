@@ -43,14 +43,14 @@ export default function Hero() {
           </div>
           <div className="hero__json card">
             <pre>
-{`{
+              {`{
   "role": "`}<span className="j-str">{profile.role}</span>{`",
   "experience": "`}<span className="j-str">{profile.yearsExperience} years</span>{`",
   "location": "`}<span className="j-str">{profile.location}</span>{`",
   "stack": [`}
               <span className="j-str">{profile.stack.map((s) => `"${s}"`).join(", ")}</span>
-{`],
-  "status": `}<span className="j-bool">"available"</span>{`
+              {`],
+  "status": `}<span className="j-bool">"open to opportunities"</span>{`
 }`}
             </pre>
           </div>
@@ -130,18 +130,20 @@ export default function Hero() {
         .hero__photoFrame {
           width: 168px;
           height: 168px;
+          margin-top: 20px;
           border-radius: 16px;
           overflow: hidden;
           border: 1px solid var(--border-strong);
           background: var(--bg-elev);
         }
         .hero__photoFrame img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          display: block;
-          filter: grayscale(0.15) contrast(1.03);
-        }
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+  display: block;
+  filter: grayscale(0.15) contrast(1.03);
+}
         .hero__json {
           padding: 18px 20px;
         }

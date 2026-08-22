@@ -7,14 +7,13 @@ export default function About() {
       <div className="container">
         <div className="section-head">
           <span className="eyebrow">GET /about</span>
-          <h2 className="section-title">Backend-first, but I speak frontend</h2>
+          <h2 className="section-title">Backend-first, with full-stack understanding</h2>
           <p className="section-sub">
-            I've spent most of my career on the side of the stack that doesn't get
-            screenshots — the APIs, the business logic, the database design, the
-            3am production issue. But three years on one platform means also
-            becoming the person who tells the frontend team what the API actually
-            needs from them, and why.
-          </p>
+            I've spent most of my career building the parts of applications that power everything behind the interface — APIs, business logic, databases, integrations, and production systems. Over the years, I've also developed a strong understanding of how frontend and backend systems need to work together.
+
+            My primary strength is backend engineering and technical ownership rather than UI development — designing APIs, solving complex problems, understanding application flows, and guiding frontend developers on what the backend needs and how the pieces should integrate.
+
+            With experience working closely with international clients and across multiple projects, I enjoy turning business requirements into practical technical solutions and helping teams move from requirement → implementation → production.  </p>
         </div>
 
         <div className="about__stats">

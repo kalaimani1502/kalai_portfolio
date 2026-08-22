@@ -9,8 +9,7 @@ export default function Contact() {
           <div className="contact__tag">POST /contact</div>
           <h2 className="contact__title">Let's build something that has to work.</h2>
           <p className="contact__sub">
-            Open to Senior Backend Developer, API Lead, Backend Lead, or
-            Technical Lead roles — reach out directly, no forms.
+            Open to Senior Backend Developer, Backend / API Lead, Backend Lead, or Technical Lead roles — reach out directly, no forms.
           </p>
 
           <div className="contact__grid">

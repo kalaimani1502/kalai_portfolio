@@ -7,7 +7,7 @@ export default function Experience() {
       <div className="container">
         <div className="section-head">
           <span className="eyebrow">GET /experience</span>
-          <h2 className="section-title">Where the time went</h2>
+          <h2 className="section-title">Experience</h2>
           <p className="section-sub">
             Ordered by when it happened — the platform I know best sits at the
             bottom, because it's where three years actually add up.
