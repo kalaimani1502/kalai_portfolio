@@ -1,6 +1,6 @@
 export const profile = {
   name: "Kalaimani R",
-  role: "Backend / API Developer",
+  role: "Backend / API Engineer · Technical Lead",
   tagline: "Technical Lead",
   location: "Chennai, Tamil Nadu, India",
   email: "rkalai1502@gmail.com",
@@ -10,7 +10,7 @@ export const profile = {
   resumeFile: "./Kalaimani_R_Resume.pdf",
   yearsExperience: "5.5+",
   summary:
-    "I design and build backend systems and APIs that hold up under real business complexity — bidding logic, legal workflows, document handling, e-signatures, and real-time updates. Most of my recent years have gone into a single large real-estate platform, deep enough to know how its failure modes look at 2am. Lately I've moved into Python/FastAPI for transport and event-management systems, while still guiding frontend teams on how to consume what I build.",
+   "I design and build backend systems and APIs for complex business workflows, while also taking technical ownership across teams. My experience spans PHP/Laravel and Python/FastAPI, with hands-on work in real-time systems, AWS, databases, integrations, and application architecture. I've worked closely with international clients, guided frontend and backend developers, coordinated technical implementation, and helped teams turn requirements into reliable solutions. Most recently, I've been leading backend/API work for transport and event-management systems while continuing to contribute to a large-scale real-estate platform.",
   stack: ["PHP", "Python", "Laravel", "FastAPI", "MySQL", "PostgreSQL", "AWS", "WebSockets"],
 };
 

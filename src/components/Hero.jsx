@@ -16,7 +16,7 @@ export default function Hero() {
 
           <h1 className="hero__name">{profile.name}</h1>
           <p className="hero__role">
-            {profile.role} <span className="hero__dash">&mdash;</span> {profile.tagline}
+            {profile.role}
           </p>
 
           <p className="hero__summary">{profile.summary}</p>
@@ -159,23 +159,46 @@ export default function Hero() {
         .j-str { color: var(--accent-strong); }
         .j-bool { color: var(--signal); }
 
-        @media (max-width: 860px) {
-          .hero__inner {
-            grid-template-columns: 1fr;
-          }
-          .hero__aside {
-            flex-direction: row;
-            align-items: flex-start;
-          }
-          .hero__photoFrame {
-            flex-shrink: 0;
-            width: 120px;
-            height: 120px;
-          }
-        }
-        @media (max-width: 520px) {
-          .hero__aside { flex-direction: column; }
-        }
+    @media (max-width: 860px) {
+  .hero__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__aside {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .hero__photoFrame {
+    flex-shrink: 0;
+    width: 140px;
+    height: 140px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero {
+    padding: 50px 0 70px;
+  }
+
+  .hero__aside {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .hero__photoFrame {
+    width: 160px;
+    height: 160px;
+    margin-top: 10px;
+  }
+
+  .hero__json {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
       `}</style>
     </section>
   );
