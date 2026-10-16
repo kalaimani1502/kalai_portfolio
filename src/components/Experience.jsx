@@ -9,8 +9,9 @@ export default function Experience() {
           <span className="eyebrow">GET /experience</span>
           <h2 className="section-title">Experience</h2>
           <p className="section-sub">
-            Ordered by when it happened — the platform I know best sits at the
-            bottom, because it's where three years actually add up.
+            Six years at Compunet Connections, across the projects below —
+            ordered by when it happened, with the platform I know best at the
+            bottom.
           </p>
         </div>
 

@@ -45,6 +45,7 @@ export default function Hero() {
             <pre>
               {`{
   "role": "`}<span className="j-str">{profile.role}</span>{`",
+  "company": "`}<span className="j-str">{profile.company}</span>{`",
   "experience": "`}<span className="j-str">{profile.yearsExperience} years</span>{`",
   "location": "`}<span className="j-str">{profile.location}</span>{`",
   "stack": [`}
